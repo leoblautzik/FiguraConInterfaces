@@ -1,6 +1,6 @@
 package figura;
 
-public class Elipse extends Figura implements Comparable<Figura>, Desplazable {
+public class Elipse extends Figura {
 
 	//centro se hereda de Figura
 	private double radioMenor;

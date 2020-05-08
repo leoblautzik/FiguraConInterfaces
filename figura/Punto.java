@@ -58,6 +58,15 @@ public class Punto implements Desplazable {
 		return true;
 	}
 	
+	public double distancia(Punto p ) {
+		return Math.sqrt(Math.pow(this.getX()-p.getX(), 2)+
+				Math.pow(this.getY()-p.getY(),2));
+	}
+	
+	public static double distancia(Punto p1, Punto p2) {
+		return Math.sqrt(Math.pow(p1.getX()-p2.getX(), 2)+
+				Math.pow(p1.getY()-p2.getY(),2));
+	}
 
 
 }

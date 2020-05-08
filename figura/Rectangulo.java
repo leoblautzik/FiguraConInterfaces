@@ -1,6 +1,6 @@
 package figura;
 
-public class Rectangulo extends Figura implements Comparable<Figura>, Desplazable {
+public class Rectangulo extends Figura {
 
 	//inferiorIzquierdo se hereda de Figura;
 	private Punto superiorDerecho;

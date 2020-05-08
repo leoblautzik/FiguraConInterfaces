@@ -1,6 +1,6 @@
 package figura;
 
-public class Triangulo extends Figura implements Desplazable, Comparable<Figura> {
+public class Triangulo extends Figura {
 
 	
 	private Punto p2;

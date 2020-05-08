@@ -28,7 +28,20 @@ public class TestFiguras {
 
 		for (Figura cu : figuras)
 			System.out.println(cu);
+		
+		
+		Punto p5= new Punto(1,1);
+		p5.desplazar(3,1);
+		System.out.println(p5);
+		
+		p5.distancia(p3);
+		
+		Punto.distancia(p5,p3);
+		
+		
+			
+		}
 
 	}
 
-}
+
